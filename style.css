@@ -1,0 +1,162 @@
+body {
+  font-family: "sans-serif";
+  margin: 0;
+  padding: 0;
+  background-image: url("B1.jpeg");
+  background-size: cover;
+  font-size: larger;
+  color: #443e44;
+}
+
+header {
+  background-image: url("gambar/B1.jpg");
+  background-size: cover;
+  color: #da77da;
+  top: 15%;
+  left: 8%;
+  padding: 243px;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 30px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+.box {
+  background-color: #fefefe;
+  border: 1px solid #d27171;
+  border-radius: 5px;
+  padding: 20px;
+  flex: 1;
+  margin: 0 10px;
+}
+h2 {
+  text-align: center;
+  color: #696363;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #de77a5;
+}
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+.tableku tr:nth-child(even) {
+  background-color: #ffffff;
+}
+th {
+  background-color: #a68897;
+  color: #fff;
+}
+tr:nth-child(even) {
+  background-color: #ffffff;
+}
+.bg {
+  color: #f2cfee;
+}
+
+.btn_data {
+  border: 1px solid #d81f1f;
+  padding: 0.7em 2em;
+  border-radius: 20px;
+  background-color: white;
+  color: #1c1212;
+  cursor: pointer;
+  position: fixed;
+  top: 10%;
+  right: 5%;
+  transform: translate(-50%, -50%);
+}
+.btn_data:hover {
+  background-color: #d64444;
+  color: #ffffff;
+}
+.btn_produk {
+  border: 1px solid #d81f1f;
+  padding: 0.7em 2em;
+  border-radius: 20px;
+  background-color: white;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  position: fixed;
+  top: 10%;
+  right: 20%;
+  transform: translate(-50%, -50%);
+}
+.btn_produk:hover {
+  background-color: #d64444;
+  color: #ffffff;
+}
+
+.my-button {
+  background-color: #e489d6;
+  border: none;
+  padding: 0.7em 2em;
+  border-radius: 20px;
+  color: white;
+  position: fixed;
+  cursor: pointer;
+  top: 90%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+}
+
+.outline-button:hover {
+  background-color: #d81f1f;
+  color: white;
+}
+
+.card {
+  width: 300px;
+  border: 0px solid #eadbef;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(127, 121, 121, 0.1);
+}
+.product-image {
+  width: 50%;
+  top: 50%;
+  border-radius: 5px;
+}
+.product-details {
+  margin-top: 10px;
+}
+.product-name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.product-price {
+  color: #e177c7;
+  font-size: 18px;
+}
+.product-description {
+  margin-top: 10px;
+  font-size: small;
+}
+.btn {
+  background-color: #e177c7;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #f5f3f5;
+  color: #ff4000;
+}
+
+.produk {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
